@@ -1,0 +1,67 @@
+:root {
+    --nord0: #2E3440;
+    --nord1: #3B4252;
+    --nord2: #434C5E;
+    --nord3: #4C566A;
+    --nord4: #D8DEE9;
+    --nord5: #E5E9FB;
+    --nord6: #ECEFF4;
+    --nord7: #8FBCBB;
+    --nord8: #88C0D0;
+    --nord9: #81A1C1;
+    --nord10: #5E81AC;
+    --nord11: #BF616A;
+    --nord12: #D08770;
+    --nord13: #EBCB8B;
+    --nord14: #A3BE8C;
+    --nord15: #B48EAD;
+    --font: BlinkMacSystemFont, -apple-system, "Segoe UI", "Robot", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neu Helvetica", "Arial", sans-serif;
+
+}
+
+/* * { outline: 1px solid red;} */
+
+body{
+    background-color: #88C0D0;
+    font-family: var(--font);
+    color: var(--nord1);
+}
+
+header, section{
+    border: 1px solid var(--nord0);
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+}
+ul {
+    list-style-type: none;
+}
+
+header{
+    background-color: var(--nord9);
+    display: flex;
+    border-bottom: 1px solid var(--nord0);
+}
+section{
+    display: flex;
+}
+
+article{
+    margin-left: 10px;
+    width: 300%;
+    border-right: 1px solid var(--nord0);
+}
+aside{
+    margin-left: 10px;
+}
+
+img{
+    border-radius: 500px;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+}
+
+.p{
+    border-bottom: 1px solid var(--nord1);
+}
